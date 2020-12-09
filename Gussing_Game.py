@@ -134,7 +134,7 @@ def resultframe():
 # GUI window
 am = Tk()
 am.geometry("400x330")
-am.title("Gussing Game")
+am.title("Guessing Game")
 am.resizable(width=False, height=False)
 
 # in time
