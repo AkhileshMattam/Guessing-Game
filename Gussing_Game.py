@@ -129,6 +129,7 @@ def resultframe():
     ls.place(x=200, y=180)
     Label(f2, text=end, font='Verdana 20 bold', bg='#80FF72', fg='orange').pack(pady=25)
     Label(f2, text='Rerun the program to play again', font='Verdana 10 bold', bg='#80FF72').pack(side=BOTTOM)
+    Label(f2, text="~Akhil", font="Times 12 italic", bg='#80FF72').place(x=345, y=302)
 
 
 # GUI window
@@ -185,6 +186,8 @@ l4 = Label(f1, text='SCORE:', font='Verdana 10 bold', bg='#FEF900')
 l4.place(x=146, y=180)
 l5 = Label(f1, font="Verdana 10 bold", bg='#FEF900')
 l5.place(x=200, y=180)
+l6 = Label(f1, text="~Akhil", font="Times 12 italic", bg="#FFCCCC")
+l6.place(x=335, y=295)
 
 # keyboard
 am.bind('<Return>', okfunc)
