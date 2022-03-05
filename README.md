@@ -19,3 +19,8 @@ First Window--
 Second Window--
 
 <img src ="Images/Second_Window.png" width="400" height="360">
+
+Download:
+1) Copy the link given below.
+2) On your terminal paste "git clone {link}"
+3) # Link: https://github.com/AkhileshMattam/Guess-Me.git
